@@ -1,0 +1,21 @@
+{
+  "name": "send-sms",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4",
+    "sucrase": "^3.15.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nexmo": "^2.8.0",
+    "node-mailjet": "^3.3.1"
+  }
+}
